@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+nav {
+    width: 100%;
+    height: 120px;
+    background: #fff;
+    border-bottom: 1px solid transparent;
+    box-shadow: 1px 1px 10px 0 #000;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    transition: ease-in-out 0.5s;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    width: 100%;
+    align-items: center;
+    padding: 0 20px;
+}
+.logo{
+    height: 120px;
+}
+.logo img{
+    height: 100%;
+    margin: auto;
+    vertical-align: top;
+}
+.links{
+    font-weight: 300;
+    transition: ease-in-out 0.5s;
+}
+.links a{
+    color: #5D6678;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.introduction{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 130px 0 20px 0;
+}
+.front{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.front div p{
+    font-weight: 100;
+    margin-top: 14px;
+    color: #5D6678;
+    text-align: center;
+}
+.front div h1{
+    font-size: 40px;
+    color: #1d273b;
+    font-weight: 300;
+    text-align: center;
+}
+.front img{
+    height: 100%;
+    vertical-align: top;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.members{
+    background: #99FEFF;
+}
+.general-content{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 0 0;
+}
+.general-content h2{
+    font-size: 30px;
+    color: #1d273b;
+    font-weight: 300;
+    text-align: center;
+}
+.members-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.member{
+    width: 29%;
+    background: #fff;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 25px 15px 30px 15px;
+    transition: 0.5s;
+}
+.member:hover{
+    box-shadow: 0 4px 10px #142F43;
+}
+.member h3{
+    color: #1d273b;
+    font-weight: 300;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
+}
+.member p{
+    text-align: center;
+    font-weight: 100;
+    color: #5D6678;
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+.history{
+    background: black;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+.history-content{
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+}
+.history-content h2{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+}
+.history-content img{
+    display: block;
+    height: 70%;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+.history-content p{
+    text-align: justify;
+    color: #fff;
+}
+.discography{
+    background: #B8E4F0;
+    padding-top: 30px;
+}
+.discography-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.popular-songs{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.song{
+    width: 45%;
+    background: black;
+    color: #fff;
+    border-radius: 15px;
+    padding: 25px 25px;
+    margin-bottom: 20px;
+}
+.song h4{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.song p{
+    color: #f2f5fc;
+    font-weight: 300;
+    text-align: justify;
+}
+.songs-text {
+    width: 37%;
+}
+.songs-text h3{
+    color: black;
+    font-size: 40px;
+    text-align: left;
+}
+.songs-text p{
+    color: black;
+    font-weight: 300;
+    margin: 20px 0;
+    text-align: justify;
+}
+.songs-text a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px 0;
+    width: 120px;
+    text-align: center;
+    border-radius: 5px;
+}
+.awards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    margin: auto;
+}
+.awards img{
+    width: 90%;
+    margin: auto;
+}
+.awards-content{
+    margin: auto;
+    width: 90%;
+}
+.awards-content h2{
+    color: #1d273b;
+    font-weight: 300;
+    text-align: center;
+}
+.awards-content p{
+    font-weight: 100;
+    margin: 15px 20px;
+    color: #5D6678;
+    text-align: justify;
+}
+.tours{
+    background: #97BFB4;
+}
+.general-tours{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 0 0;
+}
+.general-tours h2{
+    font-size: 30px;
+    color: #1d273b;
+    font-weight: 300;
+    text-align: center;
+}
+.tours-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.tour{
+    width: 30%;
+    background: #F5EEDC;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 10px 15px 30px 15px;
+    transition: 0.5s;
+}
+.tour:hover{
+    box-shadow: 0 4px 10px #142F43;
+}
+.tour h3{
+    color: #1d273b;
+    font-weight: 300;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
+}
+.tour img{
+    font-size: 30px;
+    color: black;
+    display: inline-block;
+    height: 130px;
+    width: 100%;
+    margin-top: 15px;
+    box-shadow: 0 8px 32px gray;
+}
+footer{
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    padding: 5px 30px;
+}
+footer img{
+    height: 100%;
+    vertical-align: top;
+}
+footer ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+}
+footer ul li{
+    color: #5D6678;
+    margin-right: 80px;
+    list-style: none;
+}
